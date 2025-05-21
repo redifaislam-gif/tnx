@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== REMIXICONS ===============-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Experience Journey</title>
+      <style>
+         #button {
+  display: inline-block;
+  background-color: #02B0B3;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size:30px;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+      </style>
+   </head>
+   <body>
+      <a id="button"></a>
+
+      <!--==================== HEADER ====================-->
+<section class="header-section">
+         <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Dummy<span style="color:#FFAC45">logo</span></a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item" id="link">
+                     <a href="#ticket-section" class="nav__link">
+              
+                        <span>Ticket Packages</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item" id="link2">
+                     <a href="#Highlight-section" class="nav__link">
+                
+                        <span>Highlight</span>
+                     </a>
+                  </li>
+
+                  <li class="nav__item"  id="link3">
+                     <a href="#what-a-expect" class="nav__link">
+                  
+                        <span>What to Expect</span>
+                     </a>
+                  </li>
+                     <div class="header-responsive-button">
+              <a href="#">Register as an attendee</a>
+            </div> 
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+
+            </div>
+                     <!-- header-right-button -->
+             <div class="header-right-btn">
+              <a href="">Register as an attendee</a>
+            </div> 
+         
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-line"></i>
+            </div>
+         </nav>
+      </header>
+      <div class="left-icon">
+         <img src="assets/img/header-left-icon.png" alt="">
+      </div>
+               <div class="banner-title">
+          <div class="banner-container">
+       <h1>From Ai to Awakening  <img class="title-icon" src="assets/img/138.png" alt=""> A Human Experience Journey</h1>
+      <p>Awaken. Evolve. Transcend.</p>
+  <div class="header-right-btn responsive-right-btn">
+              <a href="">Register as an attendee</a>
+            </div> 
+     </div>
+     </div>
+
+       <div class="banner-input-image-box">
+       <div class="banner-input-box">
+         <div class="input-item">
+          <label for="">2 April 2025</label>
+          <input type="text" placeholder="Date">
+         </div>
+
+          <div class="input-item">
+          <label for="">Barlin, Germany</label>
+          <input type="text" placeholder="Location">
+         </div>
+
+          <div class="input-item">
+          <label for="">2-Day Transformation</label>
+          <input type="text" placeholder="Duration">
+         </div>
+
+          <div class="input-button">
+            <a href="">Book Your Experience Now</a>
+          </div>
+       </div>
+
+       <div class="image-right">
+         <img src="assets/img/banner-right-img.png" alt="">
+       </div>
+       </div>
+
+</section>
+
+      <!--==================== matrix-section ====================-->
+      <section class="matrix-section">
+         <div class="container">
+            <div class="matrix-2comn">
+
+               <div class="matrix-content">
+                     <h2>Step Out of the Matrix. Step Into Your Power</h2>
+
+                    
+                     <p>Tired of surface-level conversations and digital overload? <br>
+                        Ready to reconnect with something real, raw, and soul-nourishing?</p>
+                        <p>Rise Beyond is a 2-day immersive experience designed to awaken your spirit, expand your perspective,
+                            and help you feel fully alive again. Explore Mind, Body & Soul through rituals, 
+                            conversations, 
+                            healing, and community—curated for modern seekers.</p>
+                  </div>
+               <div class="matrix-image">
+                     <div class="matrix-image-2content">
+                        <div class="matrix-image-content1">
+                           <div class="matrix-image-content1-item item-text responsive-items">
+                              <h3>Quantum truths meet ancient conscious wisdom</h3>
+                              <img src="assets/img/matrix-icon.png" alt="">
+                           </div>
+                             <div class="matrix-image-content1-item-image responsive-items">
+                              <img src="assets/img/matrix1.png" alt="" style="margin-top:15px;">
+                                </div>
+                        </div>
+
+                        <div class="matrix-image-content2">
+                           <div class="matrix-image-content1-item-image responsive-items">
+                                 <img src="assets/img/matrix2.png" class="img1" alt="">
+                          
+                            
+                           </div>
+                             <div class="matrix-image-content1-item item-text responsive-items">
+                                   <h3>Decode self via breath and neural harmony</h3>
+                                              <img src="assets/img/matrix-icon2.png" alt="">
+                                </div>
+                        </div>
+                     </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   <!--=============== matrix section-stop ===============-->
+
+   <!--=============== what to expext start ===============-->
+   <section class="expect-section" id="what-a-expect">
+      <div class="container">
+         <div class="expect-2colmn">
+            <div class="expect-left-colmn">
+               <div class="left-items">
+                  <li><img src="assets/img/expect-icon1.png" alt=""><a href="">Workshops</a></li>
+                   <li><img src="assets/img/expect-icon2.png" alt=""><a href="">Fireside Chats</a></li>
+                    <li><img src="assets/img/expect-icon.png" alt=""><a href="">Soul Rituals</a></li>
+                     <li><img src="assets/img/expect-icon4.png" alt=""><a href="">Music & Movement</a></li>
+                      <li><img src="assets/img/expect-icon5.png" alt=""><a href="">Biohacking </a></li>
+                       <li><img src="assets/img/expect-icon-6.png" alt=""><a href="">Sound Therapy </a></li>
+               </div>
+               <div class="left-items-fullist">
+                      <li><img src="assets/img/expext-fullicon-7.png" alt=""><a href="">Healing Circles</a></li>
+               </div>
+            </div>
+              
+            <div class="expect-right-content">
+               <h2>What to Expect</h2>
+               <p>Experience soul-grounding rituals, guided by Berlin’s leading facilitators. Explore conscious biohacking,
+                   yogic science, and frequency-based healing. Decode synchronicities, karma, and ancient wisdom with spiritual scholars. 
+                  </p>
+                  <p>Dive deep with panel discussions on AI, consciousness, and human potential. Chill out with ambient music.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+      <!--=============== what to expext stop ===============-->
+
+
+  <!--=============== plas-section-start ===============-->
+  <section class="plas-sectiuon">
+   <div class="container">
+      <div class="plas-box">
+         <div class="plas-item">
+            <h3>50+</h3>
+            <p>Exhibitors</p>
+         </div>
+             <div class="plas-item">
+            <h3>30+</h3>
+            <p>Presenters</p>
+         </div>
+             <div class="plas-item">
+            <h3>20+</h3>
+            <p>Sponsor</p>
+         </div>
+      </div>
+   </div>
+  </section>
+
+    <!--=============== plas-section-stop ===============-->
+
+
+
+      <!--=============== this-journey-start ===============-->
+      <section class="this-journey">
+         <div class="container">
+            <div class="this-journey-title-content">
+               <h2>This Journey is For You</h2>
+               <img src="assets/img/this-journey-if-icon.png" alt="">
+            </div>
+              <div class="journey-3colmn">
+                <div class="journey-left-content">
+                       <div class="journey-left-item journey-left-right-content text-left-134px">
+                        <img src="assets/img/this-journey-star.png" alt="">
+                        <h3>You’re craving real connection and soulful conversation</h3>
+                       </div>
+                         <div class="journey-left-item journey-left-right-content text-align">
+                        <img src="assets/img/this-journey-star.png" alt="">
+                        <h3>You want to understand how science meets spirit</h3>
+                       </div>
+                         <div class="journey-left-item journey-left-right-content text-align text-left-134px">
+                        <img src="assets/img/this-journey-star.png" alt="">
+                        <h3>You’re all in for a soul-first way of living</h3>
+                       </div>
+                </div>
+                <div class="journey-center-image">
+                     <img src="assets/img/this-journey-gril.png" alt="" srcset="">
+                </div>
+
+
+                <div class="journey-right-content">
+                       <div class="journey-right-item journey-left-right-content text-right-134px">
+                        <img src="assets/img/this-journey-star.png" alt="">
+                        <h3>You’re navigating burnout, change, or deep transformation</h3>
+                       </div>
+                         <div class="journey-right-item journey-left-right-content text-align">
+                        <img src="assets/img/this-journey-star.png" alt="">
+                        <h3>You’re ready to meet your soul-aligned tribe</h3>
+                       </div>
+                       <div class="journey-right-item journey-left-right-content text-right-134px">
+                        <img src="assets/img/this-journey-star.png" alt="">
+                        <h3>You’re a spiritual seeker craving authentic connection</h3>
+                       </div>
+                </div>
+              </div>
+         </div>
+      </section>
+           <!--=============== this-journey-stop ===============-->
+
+   <!--===============Event Highlights start ===============-->
+   <section id="event-high-scroll">
+        <section class="event-highlights-section" id="Highlight-section">
+      <div class="container">
+         <div class="event-tilte-content">
+            <h2>Event Highlights</h2>
+            <p>Explore transformative experiences designed to inspire, awaken, and align your inner journey.</p>
+         </div>
+
+         <div class="event-box">
+            <div class="event-item">
+               <img src="assets/img/event-icon1.png" alt="">
+               <h3>panel</h3>
+               <p>From AI to Awakening – Reclaiming humanity in the tech age</p>
+            </div>
+              <div class="event-item">
+               <img src="assets/img/event-icon2.png" alt="">
+               <h3>Workshop</h3>
+               <p>Grounded in Frequency – Vibration, breath, and sound</p>
+            </div>
+              <div class="event-item">
+               <img src="assets/img/event-icon3.png" alt="">
+               <h3>Discussion</h3>
+               <p>Escaping the Matrix of Samsara – Breaking cycles of suffering</p>
+            </div>
+              <div class="event-item">
+               <img src="assets/img/event-icon4.png" alt="">
+               <h3>Visioning</h3>
+               <p>The New Human Experience – Your soul-aligned path</p>
+            </div>
+              <div class="event-item">
+               <img src="assets/img/event-icon5.png" alt="">
+               <h3>Night Ritual</h3>
+               <p>Sacred Fire & Sound – Intention, release & elevation</p>
+            </div>
+         </div>
+      </div>
+     </section>
+   </section>
+
+   <!--===============Event Highlights stop ===============-->
+
+
+
+   <!--===============Speakers & Guides start===============-->
+<section class="Speakers-Guides-section">
+ <div class="container">
+   <div class="speakers-title-content">
+      <h2>Speakers & Guides</h2>
+      <p>30+ facilitators from Berlin & London.<br/>
+         Shamans, sound healers, spiritual futurists, therapists, and movement artists.
+      </p>
+   </div>
+   <div class="speacker-box">
+     <div class="speacker-item">
+            <img src="assets/img/speackers-img1.png" alt="">
+      <h3>Krish Swamy</h3>
+      <p>Vice President - Enterprise Analytics and Data Science</p>
+     </div>
+
+       <div class="speacker-item">
+            <img src="assets/img/speackers-img2.png" alt="">
+      <h3>Krish Swamy</h3>
+      <p>Vice President - Enterprise Analytics and Data Science</p>
+     </div>
+
+       <div class="speacker-item">
+            <img src="assets/img/speackers-img3.png" alt="">
+      <h3>Krish Swamy</h3>
+      <p>Vice President - Enterprise Analytics and Data Science</p>
+     </div>
+
+
+       <div class="speacker-item">
+            <img src="assets/img/speackers-img4.png" alt="">
+      <h3>Krish Swamy</h3>
+      <p>Vice President - Enterprise Analytics and Data Science</p>
+     </div>
+   </div>
+ </div>
+
+</section>   
+
+
+   <!--===============Speakers & Guides stop===============-->
+
+
+      <!--===============Ticket Packages start===============-->
+   <section class="ticket-packages" id="ticket-section">
+      <div class="container">
+         <div class="ticket-tilte-content">
+            <h2>Ticket Packages</h2>
+            <p>Choose the experience that resonates with your journey — from soul-deep sessions to transformative VIP access.</p>
+         </div>
+
+         <div class="ticket-box">
+          
+              <div class="ticket-item">
+               <div class="dolar">
+                  <h3>5000 <span class="euros">Euros</span></h3>
+                  <p>Seeker Pass</p>
+               </div>
+           
+                  <div class="book-btn">
+                      <a href="">Book Your Experience Now</a>
+                     </div>
+         
+                  <div class="ticket-list"> 
+                  <li><img src="assets/img/tik.png" alt="">Full Access to All Sessions</li>
+                    <li><img src="assets/img/tik.png" alt="">Workshops</li>
+                                  <li></li>
+                  </div>
+
+                    <span class="perfcet-text">Perfect for the curious explorer</span>
+            
+            </div>
+
+              <div class="ticket-item">
+               <div class="dolar">
+                  <h3>10,000 <span class="euros">Euros</span></h3>
+                  <p>Soul Experience</p>
+               </div>
+           
+                  <div class="book-btn">
+                      <a href="">Book Your Experience Now</a>
+                     </div>
+         
+                  <div class="ticket-list"> 
+                  <li><img src="assets/img/tik.png" alt="">Includes Seeker Pass</li>
+                    <li><img src="assets/img/tik.png" alt="">Cacao Ritual</li>
+                    <li><img src="assets/img/tik.png" alt="">Sound Bath & Group Healing</li>
+                  </div>
+
+                    <span class="perfcet-text" style="margin-top:-15px;">For those ready to feel the shift</span>
+            
+            </div>
+
+
+              <div class="ticket-item">
+               <div class="dolar">
+                  <h3>20,000 <span class="euros">Euros</span></h3>
+                  <p>Ascension VIP</p>
+               </div>
+           
+                  <div class="book-btn">
+                      <a href="">Book Your Experience Now</a>
+                     </div>
+         
+                  <div class="ticket-list">
+                                         <li><img src="assets/img/tik.png" alt="">All of the Above</li>
+                                  <li><img src="assets/img/tik.png" alt="">Front-Row Access</li>
+                                   <li><img src="assets/img/tik.png" alt="">1:1 healing session & spiritual welcome kit</li>
+
+
+
+                  </div>
+
+                    <span class="perfcet-text" style="margin-top:-15px;">Personalized, powerful transformation</span>
+            
+            </div>
+         </div>
+      </div>
+   </section>
+            <!--===============Ticket Packages stop===============-->
+
+
+
+
+
+        <!--===============Topics We Cover start-full-screen===============-->
+
+<section class="topicks-section full-screen">
+     
+           <div class="topicks-title-content">
+               <h2>Topics We Cover</h2>
+               <p>We cover key topics from trends and tech to tips and personal growth</p>
+           </div>
+<div class="slide">
+<div class="owl-carousel">
+    <div class="item"><h4>Clarity</h4></div>
+    <div class="item"><h4>Awakening</h4></div>
+        <div class="item"><h4>Grounding</h4></div>
+            <div class="item"><h4>Mindfulness</h4></div>
+                <div class="item"><h4>Presence</h4></div>
+                    <div class="item"><h4>Consciousness</h4></div>
+                        <div class="item"><h4>Breathwork</h4></div>
+                            <div class="item"><h4>Movement</h4></div>
+                                <div class="item"><h4>Stillness</h4></div>
+                                    <div class="item"><h4>Awakening</h4></div>
+  
+
+</div>
+
+
+<div class="redifa owl-carousel">
+    <div class="item"><h4>Soul Rituals</h4></div>
+    <div class="item"><h4>Resilience</h4></div>
+        <div class="item"><h4>Visualization</h4></div>
+            <div class="item"><h4>Manifestation</h4></div>
+                <div class="item"><h4>Karma</h4></div>
+                    <div class="item"><h4>Frequency</h4></div>
+                        <div class="item"><h4>Sound</h4></div>
+                            <div class="item"><h4> Vibration</h4></div>
+                                <div class="item"><h4> Vibration</h4></div>
+                                    <div class="item"><h4>Meditation</h4></div>
+                                     <div class="item"><h4>Integration</h4></div>
+
+
+</div>
+
+
+
+<div class="redifa2 owl-carousel">
+    <div class="item"><h4>Energy</h4></div>
+    <div class="item"><h4> Spirituality</h4></div>
+        <div class="item"><h4>Neuroscience</h4></div>
+            <div class="item"><h4>Embodiment</h4></div>
+                <div class="item"><h4>Alignment</h4></div>
+                    <div class="item"><h4>Samsara</h4></div>
+                        <div class="item"><h4>Chanting</h4></div>
+                            <div class="item"><h4>Breath</h4></div>
+                                <div class="item"><h4>Cacao</h4></div>
+                                    <div class="item"><h4>Nature</h4></div>
+                                         <div class="item"><h4>Unity</h4></div>
+
+</div>
+</div>
+</section>
+
+
+
+
+
+
+
+        <!--===============Topics We Cover stop-full-screen===============-->
+
+
+
+
+
+
+
+
+
+
+            
+        <!--===============Topics We Cover start-responsive===============-->
+        <section class="topicks-section responsive">
+         <div class="container">
+            <div class="topicks-title-content">
+               <h2>Topics We Cover</h2>
+               <p>The art of creative writing brings a charming flair to the realms of publishing and typography.</p>
+            </div>
+         </div>
+
+         <div class="topicks-box">
+            <div class="topicks-item1">
+               <li>Clarity</li>
+               <li>Awakening</li>
+               <li>Grounding</li>
+               <li>Mindfulness</li>
+               <li>Presence</li>
+               <li>Consciousness</li>
+               <li>Breathwork</li>
+               <li>Stillness</li>
+               <li>Movement</li>
+                   <li>Transformation</li>
+            </div>
+
+             <div class="topicks-item1 topicks-item2">
+               <li>Soul Rituals</li>
+               <li>Resilience</li>
+               <li>Visualization</li>
+               <li>Manifestation </li>
+               <li>Karma</li>
+               <li>Frequency</li>
+               <li>Sound</li>
+               <li> Vibration</li>
+               <li>Meditation</li>
+           <li>Integration</li>
+            </div>
+
+                     <div class="topicks-item1">
+               <li>Energy</li>
+               <li> Spirituality</li>
+               <li>Neuroscience</li>
+               <li>Embodiment</li>
+               <li>Alignment</li>
+               <li>Samsara</li>
+               <li>Chanting</li>
+               <li>Breath</li>
+               <li>Unity</li>
+                  
+            </div>
+         </div>
+        </section>
+          <!--===============Topics We Cover stop===============-->
+
+          <!--===============media-partner-section-start===============-->
+  <section class="media-partner-section">
+   <div class="container">
+      <div class="media-partner1">
+         <img src="assets/img/media-partner-circle-icon.svg" alt="">
+      </div>
+
+        <div class="media-partner2">
+         <img src="assets/img/media-2.svg" alt="">
+      </div>
+
+         <div class="media-partner3">
+         <img src="assets/img/media-partner-circle-icon.svg" alt="">
+      </div>
+
+            <div class="media-partner4">
+         <img src="assets/img/media-4.svg" alt="">
+      </div>
+
+            <div class="media-partner6">
+         <img src="assets/img/media-5.svg" alt="">
+      </div>
+
+            <div class="media-partner5">
+         <img src="assets/img/media-6.svg" alt="">
+      </div>
+            <div class="media-partner7">
+    <h3>Media Partners</h3>
+      </div>
+
+   </div>
+  </section>
+ 
+<section class="media-partner-responsive">
+   <div class="container">
+      <h2>Media Partners</h2>
+      <div class="media-reponsive-icon">
+          <img src="assets/img/sponsor-icon1.png" alt="" style="margin-top: -10px;">
+          
+          <img src="assets/img/sponsor-icon2.png" alt="">
+          
+          <img src="assets/img/sponsor-icon3.png" alt="">
+        
+      </div>
+            <div class="media-reponsive-icon">
+          <img src="assets/img/sponsor-icon4.png" alt="">
+          
+          <img src="assets/img/sponsor-icon5.png" alt="">
+          
+          <img src="assets/img/sponsor-icon6.png" alt="">
+        
+      </div>
+   </div>
+</section>
+
+
+
+
+  <!--===============media-partner-section-stop===============-->
+
+             <!--===============sponsor-section-start===============-->
+     <section class="sponsor-section">
+      <div class="container">
+         <div class="sponsor-box">
+            <div class="sponsor-items">
+               <div class="sponsor-title">
+                  <h3>Diamond Sponsor</h3>
+               </div>
+               <div class="sponsor-icons sponsor-icons-width">
+                  <img src="assets/img/sponsor-icon--1.svg" alt="" style="margin-top: -7px;">
+                  <img src="assets/img/sponsor-icon-2.svg" alt="">
+                  <img src="assets/img/sponsor-icon-3.svg" alt="" style="">
+               
+               </div>
+                  <div class="sponsor-icons sponsor-icons-width1">
+                      <img src="assets/img/sponsor-icon-4.svg" alt="" style="">
+                  <img src="assets/img/sponsor-icon-5.svg" alt="" style="">
+                  <img src="assets/img/sponsor-icon-6.svg" alt="" style="">
+          
+               </div>
+            </div>
+
+               <div class="sponsor-items">
+               <div class="sponsor-title">
+                  <h3>Platinum Sponsor</h3>
+               </div>
+             <div class="sponsor-icons sponsor-icons-width">
+                  <img src="assets/img/sponsor-icon--1.svg" alt="" style="margin-top: -7px;">
+                  <img src="assets/img/sponsor-icon-2.svg" alt="">
+                  <img src="assets/img/sponsor-icon-3.svg" alt="" style="">
+               
+               </div>
+                  <div class="sponsor-icons sponsor-icons-width1">
+                      <img src="assets/img/sponsor-icon-4.svg" alt="" style="">
+                  <img src="assets/img/sponsor-icon-5.svg" alt="" style="">
+                  <img src="assets/img/sponsor-icon-6.svg" alt="" style="">
+          
+               </div>
+            </div>
+
+               <div class="sponsor-items">
+               <div class="sponsor-title">
+                  <h3>Gold Sponsor</h3>
+               </div>
+                 <div class="sponsor-icons sponsor-icons-width">
+                  <img src="assets/img/sponsor-icon--1.svg" alt="" style="margin-top: -7px;">
+                  <img src="assets/img/sponsor-icon-2.svg" alt="">
+                  <img src="assets/img/sponsor-icon-3.svg" alt="" style="">
+               
+               </div>
+                  <div class="sponsor-icons sponsor-icons-width1">
+                      <img src="assets/img/sponsor-icon-4.svg" alt="" style="">
+                  <img src="assets/img/sponsor-icon-5.svg" alt="" style="">
+                  <img src="assets/img/sponsor-icon-6.svg" alt="" style="">
+          
+               </div>
+            </div>
+
+               <div class="sponsor-items">
+               <div class="sponsor-title">
+                  <h3>SilverG Sponsor</h3>
+               </div>
+                  <div class="sponsor-icons sponsor-icons-width">
+                  <img src="assets/img/sponsor-icon--1.svg" alt="" style="margin-top: -7px;">
+                  <img src="assets/img/sponsor-icon-2.svg" alt="">
+                  <img src="assets/img/sponsor-icon-3.svg" alt="" style="">
+               
+               </div>
+                  <div class="sponsor-icons sponsor-icons-width1">
+                      <img src="assets/img/sponsor-icon-4.svg" alt="" style="">
+                  <img src="assets/img/sponsor-icon-5.svg" alt="" style="">
+                  <img src="assets/img/sponsor-icon-6.svg" alt="" style="">
+          
+               </div>
+            </div>
+         </div>
+      </div>
+     </section>
+
+
+           
+     
+     <!--===============sponsor-section-stop===============-->
+
+
+         <!--===============FAQ-section-start===============-->
+ <section class="FAQ-section">
+   <div class="container">
+      <div class="FAQ-title-content">
+         <h2>FAQ</h2>
+         <p>Our FAQ covers common questions to help you quickly understand our services, topics, and how we support you.</p>
+      </div>
+<div class="faq-box">
+     <div class="accordion">
+        <div class="accordion-content">
+            <header>
+                <span class="title">Who is this event for?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+            Spiritual seekers, wellness lovers, creatives, and curious minds ready to grow, connect, and transform.
+            </p>
+        </div>
+
+       <div class="accordion-content">
+            <header>
+                <span class="title">Where is it happening?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+           In Berlin, Germany. The venue will be &nbsp;      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                                                                                                          
+            </p>
+        </div>
+
+       <div class="accordion-content">
+            <header>
+                <span class="title">What can I expect over the 2 days?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+             Workshops, rituals, healing circles, music, talks on consciousness and AI, and plenty of soul-aligned connection.
+
+            </p>
+        </div>
+
+     
+    </div>
+
+
+     <div class="accordion2">
+        <div class="accordion-content">
+            <header>
+                <span class="title">Are tickets refundable?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+         Tickets are non-refundable but transferable. You can gift or sell your ticket to someone else if you can’t attend.
+
+            </p>
+        </div>
+
+       <div class="accordion-content">
+            <header>
+                <span class="title">Can I sponsor or partner with the event?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+            Yes! We welcome conscious brands and wellness innovators. [Apply to Sponsor]
+
+            </p>
+        </div>
+
+       <div class="accordion-content">
+            <header>
+                <span class="title">Do I need prior spiritual experience?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+
+            <p class="description">
+            Not at all. Come as you are—open, curious, and ready to explore.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            </p>
+        </div>
+
+     
+    </div>
+   </div>
+    
+
+
+
+
+   </div>
+ </section>
+
+
+
+   
+
+
+
+
+
+      <!--===============FAQ-section-stop===============-->
+         <!--===============partner-section-start===============-->
+
+<section class="partner-section">
+   <div class="partner-content">
+       <div class="part-btn1"><a href="">Partner With Us</a></div>
+
+      <h2>Are you a conscious brand, wellness innovator, or tech-for-good startup?</h2>
+     <p>Sponsor this movement and align with a community that’s rising beyond.</p>
+
+     <div class="partner-btn">
+      <a href="">View Sponsorship Deck</a>
+      <a href="">Apply to Sponsor</a>
+     </div>
+
+   </div>
+</section>
+
+
+<!--===============partner-section-stop===============-->
+
+<!--===============footer-section-start===============-->
+<section class="footer-section">
+   <div class="footer-content">
+      <h2>Follow the Path. Find Your People.</h2>
+      <p>This isn’t just an event—it’s your next chapter.
+Let’s Rise Beyond. Together.</p>
+<div class="social-media">
+   <a href=""><img src="assets/img/media1.png" alt=""></a>
+      <a href=""><img src="assets/img/media2.png" alt=""></a>
+         <a href=""><img src="assets/img/media3.png" alt=""></a>
+            <a href=""><img src="assets/img/media4.png" alt=""></a>
+</div>
+   </div>
+</section>
+
+<!--===============footer-section-stop===============-->
+      <script src="assets/js/main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" ></script>
+      <script src="assets/js/slider.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+<script>const accordionContent = document.querySelectorAll(".accordion-content");
+
+accordionContent.forEach((item, index) => {
+    let header = item.querySelector("header");
+    header.addEventListener("click", () =>{
+        item.classList.toggle("open");
+
+        let description = item.querySelector(".description");
+        if(item.classList.contains("open")){
+            description.style.height = `${description.scrollHeight}px`; //scrollHeight property returns the height of an element including padding , but excluding borders, scrollbar or margin
+            item.querySelector("i").classList.replace("fa-plus", "fa-minus");
+        }else{
+            description.style.height = "0px";
+            item.querySelector("i").classList.replace("fa-minus", "fa-plus");
+        }
+        removeOpen(index); //calling the funtion and also passing the index number of the clicked header
+    })
+})
+
+function removeOpen(index1){
+    accordionContent.forEach((item2, index2) => {
+        if(index1 != index2){
+            item2.classList.remove("open");
+
+            let des = item2.querySelector(".description");
+            des.style.height = "0px";
+            item2.querySelector("i").classList.replace("fa-minus", "fa-plus");
+        }
+    })
+}</script>
+
+
+      
+      <script>window.addEventListener("scroll",function(){
+    var header = this.document.querySelector("header");
+    header.classList.toggle("sticky",this.window.scrollY > 0)
+})</script>
+
+
+<script>
+   var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
+</script>
+   </body>
+</html>
